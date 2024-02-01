@@ -4,7 +4,7 @@ Raise to power.
 
 from typing import Union
 
-def raise_to_power(base_of_power: Union[int, float] , index_of_power: int) -> [int, float]:
+def raise_to_power(base_of_power: Union[int, float] , index_of_power: int) -> Union[int, float]:
     if index_of_power == 0:
         return 1
     if index_of_power == 1:
